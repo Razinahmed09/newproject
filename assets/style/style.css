@@ -1,37 +1,211 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;600;700&family=Kanit:ital,wght@0,200;0,400;0,500;1,900&family=Lato:wght@100&family=Poppins:wght@200&family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;600;700&family=Kanit:ital,wght@0,200;0,400;0,500;1,900&family=Lato:wght@100&family=Poppins:wght@200&family=Roboto:wght@300;400;500&display=swap");
 
-body{
-    line-height: 1.7 !important;
-    font-family: "Barlow", sans-serif;
-    font-size: large;
+body {
+  line-height: 1.7 !important;
+  font-family: sans-serif;
+  font-size: medium;
+  color: #fff;
+  line-height: 2.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow", "sans-serif";
+  font-weight: 700;
+  
+}
+/* Header */
+
+.bg {
+  background-color: rgb(24, 162, 162);
+  width: auto;
+  height: 70vh;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav.link.active {
+    color: aqua;
+}
+
+.navbar-brand{
+    color: #fff;
+    padding-top: 10px;
+}
+.navbar-nav a{
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+section .content {
+  padding-top: 150px;
+}
+
+
+.button {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(24, 162, 162);
+  outline: none !important;
+  text-decoration: none;
+  font-family: "Barlow", "sans-serif";
+  width: 100px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+.button-2 {
+  background-color: rgba(0, 255, 255, 0);
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Barlow", "sans-serif";
+  width: 100px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.button-2:hover{
+    color: rgb(24, 162, 162);
+    background-color: rgb(255, 255, 255);
+}
+
+.human-img img{
+    width: auto;
+    height: 63vh;
+    margin-left: 50px;
+}
+
+                   /* cards */
+
+
+.child{
+    margin-top: -30%;
+    width: auto;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+.child h5, p{
+    margin-top: 10px;
+    color: black;
+    padding-left: 15px;
+}
+.child p{
+    padding: 10px;
+    font-size: small;
+    color: black;
+}
+
+.child-2{
+    margin-top: -30%;
+    width: auto;
+    height: 350px;
+    background-color:rgb(22, 123, 123);
+}
+
+.child-2 h5, p{
+    margin-top: 10px;
+    padding-left: 15px;
+
+}
+.child-2 p{
+    padding: 10px;
+    font-size: small;
     color: #fff;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'PoppinsBold';
-    font-weight: 700;
-}
-/* top nav */
 
-.top-nav{
-    background-color: black;
-    
-    
+.child-3{
+    margin-top: -30%;
+    width: auto;
+    height: 350px;
+    background-color: rgb(22, 123, 123);
 }
 
+.child-3 h5, p{
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #fff;
+}
+.child-3 p{
+    padding: 10px;
+    font-size: small;
+    color: #fff;
+}
 
 
-/* nav icons */
+.child-4{
+    margin-top: -30%;
+    width: auto;
+    height: 350px;
+    background-color:  rgb(22, 123, 123);
+}
 
-   
-/* banner img */
+.child-4 h5, p{
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #fff;
+}
+.child-4 p{
+    padding: 10px;
+    font-size: small;
+    color: #fff;
+}
+
+.child img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+
+.child-2 img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    border-radius: 100%;
+}
+.child-3 img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    border-radius: 100%;
+}
+.child-4 img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+
+      /* About */
 
 
+.A-about{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
 
 
-.banner{
-    background-image: url("/assets/img/banner\ 2.jpg");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    transform: rotate();
+.degital-pro{
+    margin-top: 100px;
+    color: black;
+}
+
+.degital-pro p{
+    color: black;
+    padding: 0;
+    margin-top: 20px;
+    
 }
