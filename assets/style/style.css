@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-family: "Barlow", "sans-serif";
-  font-weight: 700;
+  font-weight: 900;
 }
 /* Header */
 
@@ -30,6 +30,10 @@ h6 {
   color: rgb(0, 0, 0) !important;
 }
 
+.navbar{
+  background-color: rgb(24, 162, 162) !important;
+  width: 100%;
+}
 .navbar-brand {
   color: #fff;
   padding-top: 10px;
@@ -41,6 +45,9 @@ h6 {
 
 section .content {
   padding-top: 150px;
+}
+section .content span{
+  color: rgb(0, 0, 0);
 }
 
 .button {
@@ -82,6 +89,8 @@ section .content {
   width: auto;
   height: 63vh;
   margin-left: 50px;
+  margin-top: 70px;
+
 }
 
 /* cards */
@@ -199,6 +208,9 @@ border-radius: 100%;
   text-align: center;
 }
 
+.degital-pro span{
+  color: rgb(24, 162, 162);
+}
 .degital-pro {
   margin-top: 90px;
   color: black;
@@ -238,6 +250,11 @@ border-radius: 100%;
 }
 
 /* services */
+
+section.services{
+ margin-bottom:400px;
+ position: relative;
+}
 
 .services .heAd h1 {
   margin-top: 100px;
@@ -306,6 +323,7 @@ border-radius: 100%;
   width: 150px;
   border-radius: 20px;
   outline: none !important;
+  border: none;
 }
 
 .chIld .btN:hover {
@@ -341,6 +359,7 @@ border-radius: 100%;
   width: 150px;
   border-radius: 20px;
   outline: none !important;
+  border: none;
 }
 
 .chIld-2 .btN:hover {
@@ -375,10 +394,76 @@ border-radius: 100%;
   margin-left: 80px;
   width: 150px;
   border-radius: 20px;
-  outline: none !important;
+  border: none;
+  
 }
 
 .chIld-3 .btN:hover {
   background-color: black;
   color: #fff;
 }
+
+/* section work */
+
+.work .heAd{
+  margin-top: 100px;
+  color: rgb(24, 162, 162);
+  text-transform:uppercase;
+}
+ 
+.work .wOrk-text h1{
+font-weight: 900;
+color: #000000;
+margin-top: 100px;
+padding-left: 15px;
+}
+
+.work .wOrk-text h1 span{
+  color: rgb(24, 162, 162);
+  
+}
+
+.wOrk-pera p{
+ 
+  color: #000000;
+  font-weight: 600;
+
+}
+.wOrk-pera ul{
+  color: #000000;
+  font-weight:600 ;
+}
+
+
+.carousel-inner img{
+  border-radius: 20%;
+  height: 700px;
+}
+
+.carousel-inner h1{
+  color: #fff;
+  font-weight: 900;
+}
+
+/* contact-us */
+
+.bg-contact{
+  margin-top: 100px;
+  width: 100%;
+  height: 40rem;
+  background-color: rgb(7, 100, 100);
+}
+
+section.contact{
+  color: #ffffff;
+}
+
+.contact-head{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+/* footer */ 
+
